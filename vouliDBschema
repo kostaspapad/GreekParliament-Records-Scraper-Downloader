@@ -1,0 +1,15 @@
+CREATE TABLE voulidatabase.vouliData(
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Conference VARCHAR(3),
+    Date DATE NOT NULL,
+    DocumentLocation TEXT NOT NULL,
+    DocumentName TEXT NOT NULL,
+    RelatedVideosLink TEXT,
+    Session VARCHAR(20),
+    TimePeriod TEXT,
+    DateOfCrawl DATE NOT NULL,
+    PDFdocumentLocation TEXT
+);
+    
+
+
